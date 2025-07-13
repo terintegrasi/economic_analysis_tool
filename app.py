@@ -7,14 +7,14 @@ from utils.visualizer import Visualizer
 
 # Page configuration
 st.set_page_config(
-    page_title="Economic Growth Analysis Tool",
+    page_title="SINERGI-P",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 def main():
-    st.title("📊 Economic Growth Analysis Tool")
+    st.title("📊 SINERGI-P")
     st.markdown("""
     This tool analyzes expenditure GDP data to identify which types of expenditure are driving economic growth in your region.
     Upload your CSV file containing expenditure GDP data to get started.
